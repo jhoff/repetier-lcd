@@ -1,0 +1,24 @@
+{
+  "name": "repetier-lcd",
+  "description": "Sparkfun LCD driver that monitors Repetier-Server for data",
+  "version": "0.0.1",
+  "author": {
+    "name": "Jordan Hoff",
+    "email": "jhoff@competeagainst.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jhoff/repetier-lcd.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jhoff/repetier-lcd/issues"
+  },
+  "engines": [
+    "node >= 0.10.0"
+  ],
+  "main": "lcd.js",
+  "dependencies": {
+    "request": "2.x.x",
+    "serlcd": "git://github.com/jhoff/serlcd.git#master"
+  }
+}
